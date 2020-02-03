@@ -45,9 +45,9 @@ _Expressions are the language equivalent to phrases._
 // Example
 let allegiance = '';
 if (forceUseGood === true) {
-    allegiance = 'jedi'
+    allegiance = 'jedi';
 } else {
-    allegiance = 'dark side'
+    allegiance = 'dark side';
 }
 ```
 
