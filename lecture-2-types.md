@@ -4,12 +4,12 @@
 
 There are 6 basic types in JavaScript.
 
-- Strings
-- Booleans
-- Empty values
-- Numbers
-- Arrays
-- Objects
+- Strings //text "cow"
+- Booleans // true false
+- Empty values // null & undefined
+- Numbers // 1 2 3 4 5 6 7 8
+- Arrays // [array]
+- Objects // {has keys & values}
 
 ```js
 // Examples
@@ -159,14 +159,14 @@ Of course comparison operators and logical operators are usually combined in an 
 ```js
 // Look at these expressions below and determine whether they evaluate to true or false
 
-1. true || false
-2. false && false
-3. 1 < 2 && 2 > 1
-4. 31 < 13 || 1 < 2 && 3 > 1
-5. 400 <= 400 && 399 < 400 && (30 > 31 || 400 > 31)
-6. true && false && false || false && true
-7. true && false || true || false
-8. true && false && false || false && true ? true && false && false || false && true : 1 < 2 && 2 > 1
+1. true || false // true
+2. false && false // false
+3. 1 < 2 && 2 > 1 // true
+4. 31 < 13 || 1 < 2 && 3 > 1 // true
+5. 400 <= 400 && 399 < 400 && (30 > 31 || 400 > 31) // true
+6. true && false && false || false && true // false
+7. true && false || true || false // true
+8. true && false && false || false && true ? true && false && false || false && true : 1 < 2 && 2 > 1 //  
 ```
 
 ---
@@ -374,9 +374,9 @@ let person = {name: 'Bob', age: 23};
 let name = 'John';
 
 // What is the value of the following expressions?
-1. person.name
-2. person['name']
-3. person[name]
+1. person.name // 'bob'
+2. person['name'] // 'bob'
+3. person[name] // undefined
 
 ```
 
@@ -391,9 +391,9 @@ let person = {name: 'bob', age: 23};
 let key = 'name';
 
 // What is the value of the following expressions:
-1. person.key
-2. person['key']
-3. person[key]
+1. person.key //undefined
+2. person['key'] //undefined
+3. person[key] //person.(key='name') = person.name ==='bob'
 
 ```
 

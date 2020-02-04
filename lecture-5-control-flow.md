@@ -60,12 +60,23 @@ Turn the following sentences into valid JavaScript `if` statements. _Use console
 ```js
 // 1. If it rains, I stay home.
 let currentWeather = 'rainy';
+// if (currentWeather === 'rainy') {
+    //console.log ('I stay home');
+//}
 
 // 2. If I am hungry, I eat.
 let hunger = true;
+// if (hunger) {
+    //console.log ('I eat');
+//}
 
 // 3. If it's 10pm, I go to bed. If not, I write code.
 let currentHour = 22;
+// if (currentHour >= 22 || currentHour <6) {
+    //console.log ('I go bed'); }
+    //else {
+    //console.log ('I wrote code');
+//}
 
 ```
 
@@ -124,7 +135,15 @@ while (number <= 12) {
 Let's write a function that outputs 2^10 (two to the power of ten).
 
 ```js
-// Example
+//let x = 1;
+//let i = 1;
+//while (i<=10) {
+    //x=x*2;
+    //i++;
+//}
+//console.log(x);
+
+//SHORTER WAY USE for loop
 
 
 ```
@@ -161,6 +180,11 @@ for (let number = 0; number <=12; number = number + 1) {
 
 // let's break that down.
 ```
+let number = 0;
+while (number<= 12) {
+    if (number===number; number=number + 1)
+    //missedd itttt
+}
 
 ---
 
@@ -179,7 +203,9 @@ for (let number = 0; number <=12; number = number + 1) {
 Write a program that output all of the numbers from 0 to 25
 
 ```js
-// code here
+// for(let i = 0; i<= 25; i++) {
+    //console.log(i);
+//}
 
 ```
 
@@ -190,7 +216,17 @@ Write a program that output all of the numbers from 0 to 25
 Write a program that output all of ODD the numbers from 0 to 25
 
 ```js
-// code here
+// for(let i = 0; i<= 25; i++) {
+    //if (i % 2 === 1) {
+    //console.log(i);
+    //}
+//}
+
+//OR
+
+// for(let i = 1; i<= 25; i+=2) {
+    //console.log(i);
+//}
 
 ```
 
@@ -201,7 +237,13 @@ Write a program that output all of ODD the numbers from 0 to 25
 Write a program that output all of the numbers from 0 to 25, but replaces all multipes of `5` by the phrase `five alive!`
 
 ```js
-// code here
+// for(let i = 0; i< 26; i++) {
+    //if (i % 5 === 0 && i!== 0) {
+    //console.log('Five Alive');}
+    //else {
+        //console.log(i);
+    //}
+//}
 
 ```
 

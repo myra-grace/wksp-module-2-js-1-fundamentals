@@ -4,26 +4,28 @@
 
 1. ( ) "I am a "Horse""
 2. ( ) "I 'prefer' ducks'
-3. ( ) 'Yes, duck is nice'
-4. ( ) "Ah, but I\'m vegan!"
-5. ( ) 'You'll eat salad then'
-6. ( ) 'Yes I\'ll eat salad'
+3. (x) 'Yes, duck is nice'
+4. (x) "Ah, but I\'m vegan!"
+5. (x) 'You'll eat salad then'
+6. (x) 'Yes I\'ll eat salad'
 7. ( ) "I'm happy to hear that!"
 8. ( ) "\"Happy to hear " + 'that" ' + "he says!"
-9. ( ) “Hello world!”
+9. (x) “Hello world!”
 
 
 ## Question 2: Rewrite below all of the strings that are not valid, and correct them to make them valid. 
-
-
+'I am a Horse'
+"I \'prefer\' ducks"
+"I\'m happy to hear that!"
+"Happy to hear " + "that " + "he says!"
 
 ## Question 3: Which of the following expressions are true? Add an 'x' between the ( ) to indicate that it's true.
 
 1. ( ) 7 == 2
-2. ( ) 7 == 7
-3. ( ) 7 == '7'
-4. ( ) 7 != 0
-5. ( ) 7 !== '7'
+2. (X) 7 == 7
+3. (X) 7 == '7'
+4. (X) 7 != 0
+5. (X) 7 !== '7'
 6. ( ) 7 != '7'
 7. ( ) 7 != 7
 
